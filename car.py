@@ -5,7 +5,7 @@ import streamlit as st
 import pickle
 
 # Read the dataset
-data = pd.read_csv(r"C:\Users\hp\OneDrive\Desktop\2nd sem\project - Copy\cleaned.csv")
+data = pd.read_csv("cleaned.csv")
 
 # Split the data
 X = data.drop(['CO2 Emissions(g/km)'], axis=1)
